@@ -4,9 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>UI Challenge 2</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>UI Challenge - Custom Form Elements</h1>
+    <form>
+        <label>text input</label>
+        <input class="text" type="text" placeholder="placeholder text">
+        
+        <label>text input w/ validation error</label>
+        <input class="text" id="validation" type="text" placeholder="placeholder text" required>
+        <p>please enter a valid username</p>
+        
+
+        <label>select box</label>
+        <select class="sprite">
+        <option selected disabled>please select an option</option>
+        <option>option 1</option>
+        <option>option 2</option>
+        <option>option 3</option>
+        <option>option 4</option>
+        <option>option 5</option>
+        </select>
+
+        <label>checkbox</label>
+        <section>
+            <div class="sprite" id="checkbox1"></div>
+            <div class="sprite" id="checkbox2"></div>
+        </section>
+        
+        <label>radio</label>
+        <section>
+            <div class="sprite" id="radio1"></div>
+            <div class="sprite" id="radio2"></div>
+        </section>
+        
+        <label id="buttonlb">buttons</label>
+        <div id="buttons">
+            <button id="button1">submit</button>
+            <button id="button2">submit</button>
+        </div>
+        
+    </form>
     
 </body>
 </html>
